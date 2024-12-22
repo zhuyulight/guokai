@@ -1,0 +1,66 @@
+/* 整体页面样式 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e1f5fe;
+    color: #333;
+}
+
+/* 标题部分样式 */
+header {
+    background-color: #0277bd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 导航栏样式 */
+nav {
+    background-color: #039be5;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+/* 内容区域样式 */
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+aside {
+    background-color: #b3e5fc;
+    padding: 10px;
+}
+
+article {
+    background-color: white;
+    padding: 10px;
+}
+
+/* 页脚部分样式 */
+footer {
+    background-color: #0277bd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
